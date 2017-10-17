@@ -2,8 +2,10 @@ package Lab1;
 
 import java.util.Arrays;
 
+import static Lab1.MySearch.a;
+
 public class MySort {
-    public static int[] b = MySearch.a;
+    public static int[] b = MySearch.insertArray(a);
     public static void main(String[] args) {
         System.out.println("Before: " + Arrays.toString(b));
         System.out.println("After:  " + Arrays.toString(sort(b)));
